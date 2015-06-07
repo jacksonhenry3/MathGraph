@@ -4,6 +4,7 @@ html {
 	color: #222;
 	font-size: 1em;
 	line-height: 1.4;
+	background:#444;
 }
 
 ::-moz-selection {
@@ -162,12 +163,25 @@ body {
 	margin: 0;
 }
 #graph {
-	position: absolute;
+	background: #EEE;
+	position: relative;
 	margin:0px auto;
 	top:5%;
 	width: 90%;
-	height: 90%;
+	height:90%;
 }
+
+#container
+ {
+	background: #EEE;
+	position: absolute;
+	margin:0px auto;
+	top:5%;
+	left:5%;
+	width: 90%;
+	height:90%;
+}
+
 
 
 
